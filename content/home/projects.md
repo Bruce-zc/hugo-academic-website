@@ -10,7 +10,7 @@ headless: true
 weight: 65
 
 title: Projects
-subtitle: ''
+subtitle: 'Research & Course Projects'
 
 content:
   # Page type to display. E.g. project.
