@@ -18,16 +18,16 @@ subtitle:
 feature:
   - description: Python, Java, C/C++, MATLAB, LaTeX 
     icon: code
-    icon_pack: fab
+    icon_pack: fas
     name: Programming Languages
-  - description: 100%
-    icon: chart-line
+  - description: PyTorch, Keras, Numpy, Scikit-learn, Pandas, Matplotlib, SPSS
+    icon: chart-scatter
     icon_pack: fas
-    name: Statistics
-  - description: 10%
-    icon: camera-retro
+    name: Data Analysis
+  - description: Android Studio, Keil/STM32CubeIDE
+    icon: ellipsis
     icon_pack: fas
-    name: Photography
+    name: Other Skills
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
