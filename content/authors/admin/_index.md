@@ -25,7 +25,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Undergraduate in Communication Engineering, Electronic and Electrical Engineering Department
+    - course: Undergraduate in Communication Engineering, Department of Electronic and Electrical Engineering
       institution: Southern University of Science and Technology
       year: 2019-2023
 
