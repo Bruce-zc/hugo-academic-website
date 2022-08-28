@@ -9,17 +9,17 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Computer Skills
 subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 90%
-    icon: r-project
+  - description: Python, Java, C/C++, MATLAB, LaTeX 
+    icon: code
     icon_pack: fab
-    name: R
+    name: Programming Languages
   - description: 100%
     icon: chart-line
     icon_pack: fas
