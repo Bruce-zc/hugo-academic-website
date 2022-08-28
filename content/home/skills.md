@@ -21,7 +21,7 @@ feature:
     icon_pack: fas
     name: Programming Languages
   - description: PyTorch, Keras, Numpy, Scikit-learn, Pandas, Matplotlib, SPSS
-    icon: chart-scatter
+    icon: chart-column
     icon_pack: fas
     name: Data Analysis
   - description: Android Studio, Keil/STM32CubeIDE
