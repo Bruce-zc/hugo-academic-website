@@ -10,7 +10,8 @@ role: Undergraduate Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Southern University of <br /> Science and Technology
+  - name: Southern University of <br> 
+    Science and Technology
     url: https://www.sustech.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
