@@ -33,7 +33,7 @@ publication: In *AAAI 2023* (Submitted)
 publication_short: In *AAAI 2023* (Submitted)
 
 # Summary. An optional shortened abstract.
-summary: We perform dynamic selection of critical samples and develop an adaptive sampling-learning method for dynamical systems based on the spatial-temporal evolution network.
+# summary: We perform dynamic selection of critical samples and develop an adaptive sampling-learning method for dynamical systems based on the spatial-temporal evolution network.
 
 tags: []
 
