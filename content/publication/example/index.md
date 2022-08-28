@@ -28,7 +28,7 @@ publishDate: '2022-01-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Advances in Neural Information Processing Systems*
+publication: In *NeurIPS 2022* (Under Peer Review)
 publication_short: In *NeurIPS 2022* (Under Peer Review)
 
 # Summary. An optional shortened abstract.
@@ -55,10 +55,10 @@ tags: []
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#  focal_point: ''
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -76,12 +76,12 @@ image:
 #slides: example
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+#{{% callout note %}}
+#Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+#{{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+#{{% callout note %}}
+#Create your slides in Markdown - click the _Slides_ button to check out the example.
+#{{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+#Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
