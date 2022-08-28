@@ -1,12 +1,12 @@
 ---
 title: (CV - Semantic Segmentation) Participated in the Imperial College of Science and Technology’s Data Science Summer School, complete a brain tumor segmentation task using U-Net.
-summary: Use Keras to load datasets and do data preprocessing and augmentation on images, build U-Net, Res-UNet and U$^2$-Net networks, optimize using the dice loss.
+summary: Use Keras to load datasets and do data preprocessing and augmentation on images, build U-Net, Res-UNet and U^2-Net networks, optimize using the dice loss.
 tags:
   - Research
-date: '2016-04-27T00:00:00Z'
+date: '2020-08-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://github.com/ididChan/BrainTumorDetector/'
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -30,12 +30,66 @@ url_video: ''
 slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Medical imaging technology has played an important role in the early diagnosis
+and efficacy evaluation of diseases, especially in the field of tumor detection, which
+has helped many patients. In tumor detection, the most used is magnetic resonance
+imaging (MRI). Due to the high complexity of human brain tissue, a large amount of
+data makes it difficult to segment images manually, which delays the optimal treatment
+time for patients. Therefore, after deep learning methods have brought rapid
+development in the field of computer vision, people have gradually begun to combine
+artificial intelligence with medical image recognition, and many convolutional neural
+network models have been proposed. These models provide doctors with a lot of help
+and provide a more adequate scientific basis for medical diagnosis, treatment, and evaluation.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+FCN
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+The traditional CNN-based segmentation method is a relatively mature model but
+there are some problems[2]. First, a large amount of storage space is required, and the
+increase in the number and size of sliding windows will result in a very large storage
+space. Second, there is a large degree of repetition. Repeated calculations for a pixel
+result in slow calculation speed and low efficiency of the model. Third, the size of the
+pixel block will limit the size of the receptive field, so that only some local features can
+be extracted, which ultimately results in the limitation of classification performance.
+Therefore, a fully convolutional neural network is proposed.
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+There are three main differences between Fully Convolutional Neural Networks
+(FCN) and traditional Convolutional Neural Networks (CNN).
+The first is to convert the fully connected layer into a convolutional layer, and use
+the deconvolution method for up sampling, which solves the problem of the effect of
+convolution and pooling operations on the image size.
+Secondly, use the transfer learning method for finetune. Some common classification
+networks such as GoogleNet, VGG, etc. can be reinterpreted as FCN.
+Thirdly, to ensure accuracy and robustness, a skip structure that combines the results
+of different depth layers.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+U-Net
+
+U-Net is essentially based on FCN, and it has some improvements on FCN. U-Net
+contains two serial paths, one is the contracting path for extracting image features and
+capturing image content, and the other is the expanding path for precise positioning[3].
+U-Net retains a large number of feature channels during the up-sampling process. It
+superimposes the feature maps of the same size of the contracting path and the expanding
+path, and then continue the convolution and up sampling work, which effectively
+reduces the loss of image information on the compression path.
+
+In addition, the classic convolutional network in skip connection needs to be trained
+with a large number of labeled training samples, but in biomedical image processing,
+due to the small amount of data, there is not enough data set for training, so data enhancement
+is required. Commonly used methods to increase training samples include
+rotating images, mirroring transformations, etc. In the article, image augmentation
+with elastic deformation is used. At the same time, due to the vitality of human cells
+and tissues, irregular distortions always occur at the boundaries of cell tissues, so data
+enhancement is very necessary. The article uses sampling from a Gaussian distribution
+with a 10-pixel standard deviation and uses bicubic interpolation to calculate the displacement
+of each pixel. Finally, place the drop-out layer at the end of the contracting
+path to further increase data.
+
+Res-Unet
+
+To further optimize and obtain more accurate results, Res-UNet was tried to be
+adopted. The model is based on the original U-Net model and adds a weighted attention
+mechanism. After adding skip connection, the details of the image can be
+extracted better, and the accuracy rate has been further improved. In addition, we also
+used Cyclic LR training method and got better results. At the same time, we add
+some batch normalization layers in between, which can accelerate the training process
+and avoid over-fitting.
