@@ -58,7 +58,7 @@ education:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'zhangce.sustech@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
