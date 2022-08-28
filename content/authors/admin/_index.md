@@ -10,7 +10,8 @@ role: Undergraduate Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Southern University of Science and Technology
+  - name: Southern University of \ 
+    Science and Technology
     url: https://www.sustech.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
@@ -25,7 +26,8 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Undergraduate in Communication Engineering, Department of Electronic and Electrical Engineering
+    - course: Undergraduate in Communication Engineering,\
+      Department of Electronic and Electrical Engineering \
       institution: Southern University of Science and Technology
       year: 2019-2023
 
