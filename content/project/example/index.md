@@ -9,14 +9,14 @@ date: '2020-08-27T00:00:00Z'
 external_link: 'https://github.com/ididChan/BrainTumorDetector/'
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Overall Architecture of Res-Unet
   focal_point: Smart
 
 links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+#  - icon: twitter
+#    icon_pack: fab
+#    name: Follow
+#    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -27,7 +27,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 ---
 
 Medical imaging technology has played an important role in the early diagnosis
@@ -41,7 +41,7 @@ artificial intelligence with medical image recognition, and many convolutional n
 network models have been proposed. These models provide doctors with a lot of help
 and provide a more adequate scientific basis for medical diagnosis, treatment, and evaluation.
 
-FCN
+**FCN**
 
 The traditional CNN-based segmentation method is a relatively mature model but
 there are some problems[2]. First, a large amount of storage space is required, and the
@@ -62,7 +62,7 @@ networks such as GoogleNet, VGG, etc. can be reinterpreted as FCN.
 Thirdly, to ensure accuracy and robustness, a skip structure that combines the results
 of different depth layers.
 
-U-Net
+**U-Net**
 
 U-Net is essentially based on FCN, and it has some improvements on FCN. U-Net
 contains two serial paths, one is the contracting path for extracting image features and
@@ -84,7 +84,7 @@ with a 10-pixel standard deviation and uses bicubic interpolation to calculate t
 of each pixel. Finally, place the drop-out layer at the end of the contracting
 path to further increase data.
 
-Res-Unet
+**Res-Unet**
 
 To further optimize and obtain more accurate results, Res-UNet was tried to be
 adopted. The model is based on the original U-Net model and adds a weighted attention
