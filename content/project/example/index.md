@@ -1,8 +1,8 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: (CV - Semantic Segmentation) Participated in the Imperial College of Science and Technology’s Data Science Summer School, complete a brain tumor segmentation task using U-Net.
+summary: Use Keras to load datasets and do data preprocessing and augmentation on images, build U-Net, Res-UNet and U$^2$-Net networks, optimize using the dice loss.
 tags:
-  - Deep Learning
+  - Research
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
