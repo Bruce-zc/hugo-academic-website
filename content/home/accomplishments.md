@@ -23,19 +23,41 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://drive.google.com/file/d/1elSg9MaHmJyuxlAfr_q-J-vLiDS5xIgc/view?usp=sharing
-    date_start: '2020-09-28'
+  - certificate_url: https://drive.google.com/file/d/16BFo5mtNEDB1DgwPef0LUMSM1o7Sfw-9/view?usp=sharing
+    date_start: '2020-10-28'
+    date_end: '2021-10-28'
     description: ''
     organization: Southern University of Science and Technology
     organization_url: https://www.sustech.edu.cn/
-    title: The First Prize of SUSTech Outstanding Student Scholarship for the Academic Year 2019-2020 
+    title: The First Prize of SUSTech Outstanding Student Scholarship (Top 5%) for the Academic Year 2019-2020, 2020-2021.
     url: ''
-  - certificate_url: https://drive.google.com/file/d/1E-qWeu6thhphzJ5Cq4wLKfMZ0nbo0Wm0/view?usp=sharing
-    date_start: '2021-09-28'
+  - date_start: '2021-06-28'
+    date_end: '2022-06-28'
     description: ''
     organization: Southern University of Science and Technology
     organization_url: https://www.sustech.edu.cn/
-    title: The First Prize of SUSTech Outstanding Student Scholarship for the Academic Year 2020-2021 
+    title: Academic Star of Shuli College, SUSTech (Top 2%) for the Academic Year 2019-2020, 2020-2021.
+    url: ''
+  - date_start: '2021-09-28'
+    date_end: '2022-09-28'
+    description: ''
+    organization: Southern University of Science and Technology
+    organization_url: https://www.sustech.edu.cn/
+    title: Outstanding Guide Student of SUSTech 8th & 9th Peer-Supporting Class Project (Linear Algebra Course).
+    url: ''
+  - certificate_url: https://drive.google.com/file/d/1jNaZOYflwZbPjt-tM9Rzm8X28q_I6snw/view?usp=sharing
+    date_start: '2022-05-28'
+    description: ''
+    organization: Consortium for Mathematics and Its Applications
+    organization_url: https://www.comap.com/undergraduate/contests/index.html
+    title: Meritorious Winner in Mathematical Contest in Modeling 2022 (Top 9.5%).
+    url: ''
+  - certificate_url: https://drive.google.com/file/d/116GV1i9UgoppvSm0hiqE0ROGknhFoC5I/view?usp=sharing
+    date_start: '2022-05-28'
+    description: ''
+    organization: China Society for Industrial and Applied Mathematics
+    organization_url: https://www.csiam.org.cn/
+    title: National Second Prize in Contemporary Undergraduate Mathematical Contest in Modeling 2021 (Top 2%).
     url: ''
 
 design:
