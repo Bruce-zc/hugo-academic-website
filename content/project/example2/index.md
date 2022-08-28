@@ -1,12 +1,11 @@
 ---
 title: (ML - Time Series) Time Series Forecasting Based on Multi-Scale Self-Referential Correction Networks (MSRCN).
-summary: Development of Multi-Scale Self-Referential Correction Networks (MSRCN) for time
-series forecasting and gain state-of-the-art performance in multiple public datasets.
+summary: Development of Multi-Scale Self-Referential Correction Networks (MSRCN) for time series forecasting and gain state-of-the-art performance in multiple public datasets.
   - Research
 date: '2020-08-27T00:00:00Z'
 
 image:
-  caption: Overall Architecture of Res-Unet
+  caption: Overall Architecture of proposed MSRCN algorithm.
   focal_point: Smart
 
 links:
