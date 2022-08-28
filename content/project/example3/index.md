@@ -1,6 +1,7 @@
 ---
 title: (CV - Pose Estimation) Development of Self-Correctable and Adaptable Inference (SCAI) Network with Prediction Error Characterization and Correction.
 summary: We propose to develop a new self-correctable and adaptable inference (SCAI) network to achieve the capability of prediction error characterization and correction, and increase the generalization performance in pose estimation task.
+tags:
   - Research
 date: '2020-08-27T00:00:00Z'
 
