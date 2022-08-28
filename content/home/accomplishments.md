@@ -23,29 +23,19 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.coursera.org
-    date_end: ''
-    date_start: '2021-01-25'
+  - certificate_url: https://drive.google.com/file/d/1elSg9MaHmJyuxlAfr_q-J-vLiDS5xIgc/view?usp=sharing
+    date_start: '2020-09-28'
     description: ''
-    organization: Coursera
-    organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
+    organization: Southern University of Science and Technology
+    organization_url: https://www.sustech.edu.cn/
+    title: The First Prize of SUSTech Outstanding Student Scholarship for the Academic Year 2019-2020 
     url: ''
-  - certificate_url: https://www.edx.org
-    date_end: ''
-    date_start: '2021-01-01'
-    description: Formulated informed blockchain models, hypotheses, and use cases.
-    organization: edX
-    organization_url: https://www.edx.org
-    title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  - certificate_url: https://www.datacamp.com
-    date_end: '2020-12-21'
-    date_start: '2020-07-01'
+  - certificate_url: https://drive.google.com/file/d/1E-qWeu6thhphzJ5Cq4wLKfMZ0nbo0Wm0/view?usp=sharing
+    date_start: '2021-09-28'
     description: ''
-    organization: DataCamp
-    organization_url: https://www.datacamp.com
-    title: 'Object-Oriented Programming in R'
+    organization: Southern University of Science and Technology
+    organization_url: https://www.sustech.edu.cn/
+    title: The First Prize of SUSTech Outstanding Student Scholarship for the Academic Year 2020-2021 
     url: ''
 
 design:
