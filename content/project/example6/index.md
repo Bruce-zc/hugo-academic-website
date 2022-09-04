@@ -15,9 +15,9 @@ links:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: ''
+url_pdf: 'https://github.com/Bruce-zc/EE317-Application'
 url_slides: ''
-url_video: ''
+url_video: 'https://pan.baidu.com/s/104IdcR1TWXXaKvpFvh5cHA?pwd=vsvu'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
