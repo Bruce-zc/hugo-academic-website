@@ -2,7 +2,7 @@
 title: (Application Design) Calculator and music player applications design and implementation with Google Android Studio.
 summary: Design numerical and operational buttons and implement the basic mathematical operations (addition, subtraction, multiplication and division) for the calculator application. Support advanced mathematical operations like square root, reciprocal and factorial. Design seek bar, song list and functional buttons, implement start, pause, continue and exit functions and support page jumping for the music player application.
 tags:
-  - Course Projects
+  - Course Project
 date: '2020-08-27T00:00:00Z'
 
 #image:
