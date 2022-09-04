@@ -14,9 +14,9 @@ links:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: ''
+url_code: 'https://github.com/Bruce-zc/CS303B-Project2'
+url_pdf: 'https://github.com/Bruce-zc/CS303B-Project2/blob/main/Assignment%202%20Report.pdf'
+url_slides: 'https://github.com/Bruce-zc/CS303B-Project2/blob/main/11910803_assignment2.pptx'
 url_video: ''
 
 # Slides (optional).
