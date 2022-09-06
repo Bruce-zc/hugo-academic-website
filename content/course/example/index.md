@@ -1,5 +1,5 @@
 ---
-title: MATH - Linear Algebra - 100.
+title: MATH - MA107A - Linear Algebra - 100.
 summary: 
 date: '2020-08-27T00:00:00Z'
 
