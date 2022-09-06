@@ -21,7 +21,7 @@ feature:
     icon_pack: fas
     name: Grade Point Average
   - description: 94.27/100
-    icon: pall-h
+    icon: poll-h
     icon_pack: fas
     name: Percentage Grade
   - description: 1/31
