@@ -18,15 +18,15 @@ subtitle:
 feature:
   - description: 3.91/4.00
     icon: square-4
-    icon_pack: fas
+    icon_pack: far
     name: Grade Point Average
   - description: 94.27/100
     icon: hundred-points
-    icon_pack: fas
+    icon_pack: far
     name: Percentage Grade
-  - description: #1/31
+  - description: 1/31
     icon: ranking-star
-    icon_pack: fas
+    icon_pack: far
     name: Major Ranking
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
