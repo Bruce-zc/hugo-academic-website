@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 65
 
-title: Projects
-subtitle: 'Research & Course Projects'
+title: Course Grades
+subtitle: 'CS Prerequisites'
 
 content:
   # Page type to display. E.g. project.
