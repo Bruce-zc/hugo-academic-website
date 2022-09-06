@@ -21,11 +21,11 @@ feature:
     icon_pack: fas
     name: Grade Point Average
   - description: 94.27/100
-    icon: pen-nib
-    icon_pack: far
+    icon: pall-h
+    icon_pack: fas
     name: Percentage Grade
   - description: 1/31
-    icon: users-class
+    icon: users
     icon_pack: fas
     name: Major Ranking
 # Uncomment to use emoji icons.
