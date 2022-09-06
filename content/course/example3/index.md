@@ -1,5 +1,5 @@
 ---
-title: CS - CS102A - Introduction to Computer (Java) Programming - 98.
+title: CS - CS102 - Introduction to Computer (Java) Programming - 98.
 summary: 
 date: '2020-08-27T00:00:00Z'
 
