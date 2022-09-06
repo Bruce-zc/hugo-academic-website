@@ -13,7 +13,7 @@ main:
   - name: Prerequisites
     url: '#course'
     weight: 20
-  - name: Honors
+  - name: Awards
     url: '#accomplishments'
     weight: 30
   - name: Projects
