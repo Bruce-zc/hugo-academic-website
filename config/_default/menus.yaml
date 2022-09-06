@@ -9,9 +9,9 @@ main:
     weight: 10
   - name: Academic Performance
     url: '#academic'
-    weight: 20
+    weight: 15
   - name: Prerequisites
-    url: '#courses'
+    url: '#course'
     weight: 20
   - name: Honors
     url: '#accomplishments'
