@@ -10,7 +10,7 @@ headless: true
 weight: 65
 
 title: Course Grades
-subtitle: 'CS Prerequisites'
+subtitle: 'Prerequisites of Computer Science'
 
 content:
   # Page type to display. E.g. project.
