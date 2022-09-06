@@ -7,18 +7,24 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Skills
-    url: '#skills'
+  - name: Academic Performance
+    url: '#academic'
     weight: 20
+  - name: Prerequisites
+    url: '#courses'
+    weight: 30
   - name: Projects
     url: '#projects'
-    weight: 30
+    weight: 40
   - name: Publications
     url: '#publications'
-    weight: 40
+    weight: 50
+  - name: Skills
+    url: '#skills'
+    weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
     url: uploads/resume.pdf
-    weight: 50
+    weight: 70
