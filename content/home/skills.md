@@ -20,7 +20,7 @@ feature:
     icon: code
     icon_pack: fas
     name: Programming Languages
-  - description: PyTorch, Keras, Numpy, Scikit-learn, Pandas, Matplotlib, Seaborn, SPSS
+  - description: PyTorch, Keras, Numpy, Scipy, Scikit-learn, Pandas, Matplotlib, Seaborn, SPSS
     icon: chart-column
     icon_pack: fas
     name: Data Analysis
