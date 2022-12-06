@@ -29,8 +29,7 @@ publishDate: '2022-01-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE/CVF Conference on Computer Vision and Pattern Recognition* (Submitted)
-publication_short:*CVPR 2023*
+publication: In *I
 
 # Summary. An optional shortened abstract.
 # summary: We perform dynamic selection of critical samples and develop an adaptive sampling-learning method for dynamical systems based on the spatial-temporal evolution network.
