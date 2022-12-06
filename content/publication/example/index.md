@@ -28,8 +28,8 @@ publishDate: '2022-01-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: In *NeurIPS 2022* (Under Peer Review)
-publication_short: In *NeurIPS 2022* (Under Peer Review)
+publication: In *International Conference on Learning Representations* (Under Peer Review)
+publication_short: *ICLR 2023*
 
 # Summary. An optional shortened abstract.
 summary: We perform dynamic selection of critical samples and develop an adaptive sampling-learning method for dynamical systems based on the spatial-temporal evolution network.
