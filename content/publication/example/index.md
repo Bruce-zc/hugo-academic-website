@@ -28,8 +28,8 @@ publishDate: '2022-01-01T00:00:00Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Conference on Learning Representations* (Under Peer Review)
-publication_short: In *International Conference on Learning Representations* (Under Peer Review)
+publication: Under peer review in *International Conference on Learning Representations (ICLR 2023)*
+publication_short: Under peer review in *International Conference on Learning Representations (ICLR 2023)*
 
 # Summary. An optional shortened abstract.
 summary: We perform dynamic selection of critical samples and develop an adaptive sampling-learning method for dynamical systems based on the spatial-temporal evolution network.
