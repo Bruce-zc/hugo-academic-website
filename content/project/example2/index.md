@@ -1,5 +1,5 @@
 ---
-title: (ML - Time Series) Multi-Scale Self-Referential Correction Networks for Time Series Forecasting.
+title: (ML - Time Series) Multi-Scale Self-Referential Correction Networks for Time Series Forecasting
 summary: Development of Multi-Scale Self-Referential Correction Networks (MSRCN) for time series forecasting and gain state-of-the-art performance in multiple public datasets.
 tags:
   - Research
