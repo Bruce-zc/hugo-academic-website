@@ -1,5 +1,5 @@
 ---
-title: (Artificial Intelligence) Dimensionality reduction, feature clustering, image classification and performance evaluation on MNIST dataset.
+title: (Artificial Intelligence) Dimensionality Reduction, Feature Clustering, Image Classification | MATLAB
 summary: Implement unsupervised Principal Component Analysis (PCA) and supervised Linear Discriminator Analysis (LDA) to project images on 784-dimensional pixel space to vectors on 2-dimensional feature plane. Cluster the data points on the 2-dimensional plane based on centroid-based K-means, connectively-based hierarchical clustering and distribution-based Gaussian mixture model algorithms. Adopt SVM with RBF kernel and neural network classifiers, evaluate the classification performance based on Receiver Operator Characteristic (ROC) curves and Area Under Curve (AUC) values.
 tags:
   - Course Project
