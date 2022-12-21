@@ -1,5 +1,5 @@
 ---
-title: (CV - Pose Estimation) Self-Correctable and Adaptive Inference for Generalizable Human Pose Estimation.
+title: (CV - Pose Estimation) Self-Correctable and Adaptive Inference for Generalizable Human Pose Estimation
 summary: We propose to develop a new self-correctable and adaptable inference (SCAI) network to achieve the capability of prediction error characterization and correction, and increase the generalization performance in pose estimation task.
 tags:
   - Research
