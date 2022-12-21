@@ -1,5 +1,5 @@
 ---
-title: (Computer Networks) P2P file transfer system implementation in Python.
+title: (Computer Networks) P2P File Transfer System Protocol Design | Python
 summary: Build the file transfer protocol between tracker and multiple clients, and implement the register, download, cancel and close functions of clients. Prioritize high uplink bandwidth nodes and actively choke nodes with sudden drops in uplink bandwidth. Accelerate file transfer efficiency while ensuring reliable data transfer. The file transfer efficiency of the designed P2P protocol outperforms the traditional Server-Client model by 176\%  in benchmarking test scenarios.
 tags:
   - Course Project
