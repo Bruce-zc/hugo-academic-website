@@ -16,11 +16,11 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: Python, Java, C/C++, MATLAB, LaTeX 
+  - description: Python, Java, C/C++, MATLAB, Kotlin, Markdown, LaTeX
     icon: code
     icon_pack: fas
     name: Programming Languages
-  - description: PyTorch, Keras, Numpy, Scipy, Scikit-learn, Pandas, Matplotlib, Seaborn, SPSS
+  - description: PyTorch, TensorFlow, Keras, Numpy, OpenCV, Scipy, Scikit-learn, Pandas, Matplotlib, Seaborn
     icon: chart-column
     icon_pack: fas
     name: Data Analysis
