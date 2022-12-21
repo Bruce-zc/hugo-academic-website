@@ -1,5 +1,5 @@
 ---
-title: (CV - Semantic Segmentation) Brain Tumor Segmentation Task Using U-Net.
+title: (CV - Semantic Segmentation) Brain Tumor Segmentation Task Using U-Net
 summary: Participated in the Imperial College of Science and Technology’s Data Science Summer School, complete a brain tumor segmentation task using U-Net. Use Keras to load datasets and do data preprocessing and augmentation on images, build U-Net, Res-UNet and U^2-Net networks, optimize using the dice loss.
 tags:
   - Research
