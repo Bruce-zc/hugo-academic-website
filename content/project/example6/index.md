@@ -1,5 +1,5 @@
 ---
-title: (Application Design)Calculator and Music Player Applications Design | Kotlin, Android Studio.
+title: (Application Design) Calculator and Music Player Applications Design | Kotlin, Android Studio
 summary: Design numerical and operational buttons and implement the basic mathematical operations (addition, subtraction, multiplication and division) for the calculator application. Support advanced mathematical operations like square root, reciprocal and factorial. Design seek bar, song list and functional buttons, implement start, pause, continue and exit functions and support page jumping for the music player application.
 tags:
   - Course Project
