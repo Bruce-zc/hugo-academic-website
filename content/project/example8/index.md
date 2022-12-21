@@ -1,5 +1,5 @@
 ---
-title: (Java Programming) Halma (checker) game design and implementation in Java.
+title: (Java Programming) Halma Game Development | Java
 summary: Support all basic rules of Halma (including valid move judgement and anomaly detection, etc.), and can initialize the game and automatically detect the winning status in a match. Support match saving on JSON files and develop on-line mode in Local Area Network (LAN). Design Human vs. Machine mode and implement minimax and advanced alpha-beta pruning algorithm for intelligent machine decision-making.
 tags:
   - Course Project
