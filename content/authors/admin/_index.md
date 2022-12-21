@@ -14,7 +14,7 @@ organizations:
     url: https://www.sustech.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning, computer vision and AI for science.
+bio: My research interests include machine learning, computer vision and AI for physical science.
 
 # Interests to show in About widget
 interests:
@@ -30,6 +30,9 @@ education:
     - course: Undergraduate in Communication Engineering, Department of Electronic and Electrical Engineering
       institution: Southern University of Science and Technology
       year: 2019-2023
+    - course: Data Science Online Summer School
+      institution: Imperial College London
+      year: 2021
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
