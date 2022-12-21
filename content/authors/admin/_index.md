@@ -18,9 +18,11 @@ bio: My research interests include machine learning, computer vision and AI for 
 
 # Interests to show in About widget
 interests:
-  - Machine Learning
-  - Computer Vision
-  - AI for Science
+- visual representation learning for human activity recognition
+- self-supervised learning
+- transfer learning (domain adaptation/generalization)
+- machine learning for physical science (ordinary/partial differential equations)
+
 
 # Education to show in About widget
 education:
