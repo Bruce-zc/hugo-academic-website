@@ -5,9 +5,9 @@ tags:
   - Research
 date: '2022-08-27T00:00:00Z'
 
-#image:
-#  caption: Framework of the proposed method of critical sampling.
-#  focal_point: Smart
+image:
+  caption: Framework of the proposed Neuromodulated Hebbian Learning method.
+  focal_point: Smart
 
 links:
 #  - icon: twitter
