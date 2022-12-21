@@ -24,7 +24,7 @@ feature:
     icon: poll-h
     icon_pack: fas
     name: Percentage Grade
-  - description: 1/0
+  - description: 1/30
     icon: users
     icon_pack: fas
     name: Major Ranking
